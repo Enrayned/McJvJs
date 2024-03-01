@@ -1,6 +1,6 @@
 {
   "name": "@enrayned/mcjvjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./src/cjs/index.js",
   "module": "./src/mjs/index.js",

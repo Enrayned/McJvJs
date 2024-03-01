@@ -1,6 +1,8 @@
 import { Bot, BotOptions } from "mineflayer";
-import { Options } from "../interfaces";
-
+interface Options extends BotOptions {
+  spawnCommands?: Array<{ spawn: number; callback: (bot: Bot) => void }>;
+  initInternalExtensions?: boolean;
+}
 export default function (bot?: Bot, botOptions?: BotOptions) {
   if (typeof botOptions === "undefined" || typeof bot === "undefined") return;
   const options: Options = botOptions;

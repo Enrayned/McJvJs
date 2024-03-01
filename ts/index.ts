@@ -14,5 +14,5 @@ export {
   lookAt,
   spawnCommands,
   wait,
+  Client,
 };
-export default Client;
