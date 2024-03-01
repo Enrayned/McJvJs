@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "outDir": "./src/mjs",
+    "module": "ESNext"
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "lib": ["ESNext"],
+      "target": "ESNext",
+      "module": "ESNext",
+      "esModuleInterop": true
+    }
+  },
+  "include": ["ts"]
+}
