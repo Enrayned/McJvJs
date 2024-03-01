@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
+    "strict": true,
     "lib": ["ESNext"],
-    "esModuleInterop": true,
+    "moduleResolution": "Classic",
     "target": "ESNext",
-    "outDir": "./src/mjs",
-    "module": "ESNext"
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "outDir": "./src/mjs"
   },
   "ts-node": {
     "compilerOptions": {

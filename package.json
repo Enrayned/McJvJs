@@ -5,6 +5,11 @@
   "main": "./src/cjs/index.js",
   "module": "./src/mjs/index.js",
   "types": "./src/typings/index.d.ts",
+  "exports": {
+    "import": "./src/mjs/index.js",
+    "types": "./src/typings/index.d.ts",
+    "require": "./src/cjs/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
